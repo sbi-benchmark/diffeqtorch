@@ -1,16 +1,16 @@
 [![PyPI version](https://badge.fury.io/py/diffeqtorch.svg)](https://badge.fury.io/py/diffeqtorch)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jan-matthis/diffeqtorch/blob/master/CONTRIBUTING.md)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbi-benchmark/diffeqtorch/blob/master/CONTRIBUTING.md)
 
 # diffeqtorch
 
-Bridges `DifferentialEquations.jl` with PyTorch. Besides benefitting from the huge range of solvers available in `DifferentialEquations.jl`, this allows taking gradients through solvers using [local sensitivity analysis/auto-diff](https://docs.sciml.ai/stable/analysis/sensitivity/). The package has only been tested with ODE problems, and in particular, automatic differentiation is only supported for ODEs using `ForwardDiff.jl`. This can be extended in the future, [contributions are welcome](https://github.com/jan-matthis/diffeqtorch/blob/master/CONTRIBUTING.md).
+Bridges `DifferentialEquations.jl` with PyTorch. Besides benefitting from the huge range of solvers available in `DifferentialEquations.jl`, this allows taking gradients through solvers using [local sensitivity analysis/auto-diff](https://docs.sciml.ai/stable/analysis/sensitivity/). The package has only been tested with ODE problems, and in particular, automatic differentiation is only supported for ODEs using `ForwardDiff.jl`. This can be extended in the future, [contributions are welcome](https://github.com/sbi-benchmark/diffeqtorch/blob/master/CONTRIBUTING.md).
 
 
 ### Examples
 
-- [Simple ODE problem to demonstrate the interface and confirm gradients with analytical solution](https://github.com/jan-matthis/diffeqtorch/blob/master/notebooks/01_simple_ode.ipynb)
-- [SIR model for a slighlty more complicated model with numerical gradient checking](https://github.com/jan-matthis/diffeqtorch/blob/master/notebooks/02_sir_model.ipynb)
-- [Hodgkin-Huxley model for a realistic example from Neuroscience](https://github.com/jan-matthis/diffeqtorch/blob/master/notebooks/03_hh_model.ipynb)
+- [Simple ODE problem to demonstrate the interface and confirm gradients with analytical solution](https://github.com/sbi-benchmark/diffeqtorch/blob/master/notebooks/01_simple_ode.ipynb)
+- [SIR model for a slighlty more complicated model with numerical gradient checking](https://github.com/sbi-benchmark/diffeqtorch/blob/master/notebooks/02_sir_model.ipynb)
+- [Hodgkin-Huxley model for a realistic example from Neuroscience](https://github.com/sbi-benchmark/diffeqtorch/blob/master/notebooks/03_hh_model.ipynb)
 
 
 ## Installation
