@@ -19,7 +19,7 @@ DESCRIPTION = "DifferentialEquations.jl with PyTorch."
 URL = "https://github.com/sbi-benchmark/diffeqtorch"
 EMAIL = "mail@jan-matthis.de"
 AUTHOR = "Jan-Matthis Lueckmann"
-REQUIRES_PYTHON = ">=3.6.0"
+REQUIRES_PYTHON = ">=3.6.0, <3.9"
 
 REQUIRED = ["julia", "opt_einsum", "torch"]
 
