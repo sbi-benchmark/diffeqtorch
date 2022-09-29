@@ -31,6 +31,7 @@ We recommend using a custom Julia system image containing dependencies. By setti
 
 ```python
 from diffeqtorch import DiffEq
+import torch
 
 f = """
 function f(du,u,p,t)
