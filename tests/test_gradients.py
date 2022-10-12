@@ -23,7 +23,7 @@ def test_gradient_simple_ode_analytical():
 
     analytical = (2 * t * torch.exp(2 * p * t)).sum()
 
-    torch.testing.assert_allclose(p.grad, analytical.float())
+    torch.testing.assert_allclose(p.grad[0], analytical.float())
 
 
 def test_gradient_simple_ode_numerical():
